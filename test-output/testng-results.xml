@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[element is present....]]>
+    </line>
+    <line>
+      <![CDATA[version: actiTIME 2017.4]]>
+    </line>
+    <line>
+      <![CDATA[element is present....]]>
+    </line>
+    <line>
+      <![CDATA[Build number: (build 40469)]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60873" started-at="2018-12-01T09:59:37Z" finished-at="2018-12-01T10:00:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60873" started-at="2018-12-01T09:59:37Z" finished-at="2018-12-01T10:00:38Z">
+      <class name="com.actitime.tests.ValidLoginLogoutTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@1bce4f0a]" name="preCondition" is-config="true" duration-ms="22796" started-at="2018-12-01T09:59:37Z" finished-at="2018-12-01T10:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:com.actitime.tests.ValidLoginLogoutTest@1bce4f0a]" name="testValidLoginLogout" duration-ms="8785" started-at="2018-12-01T10:00:00Z" finished-at="2018-12-01T10:00:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.tests.ValidLoginLogoutTest@1bce4f0a]" name="postCondition" is-config="true" duration-ms="2324" started-at="2018-12-01T10:00:08Z" finished-at="2018-12-01T10:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.ValidLoginLogoutTest -->
+      <class name="com.actitime.tests.VerifyBuildNumberTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.VerifyBuildNumberTest@5e3a8624]" name="preCondition" is-config="true" duration-ms="7400" started-at="2018-12-01T10:00:21Z" finished-at="2018-12-01T10:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="verifyBuildNo()[pri:3, instance:com.actitime.tests.VerifyBuildNumberTest@5e3a8624]" name="verifyBuildNo" duration-ms="6901" started-at="2018-12-01T10:00:29Z" finished-at="2018-12-01T10:00:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[element is present....]]>
+            </line>
+            <line>
+              <![CDATA[Build number: (build 40469)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBuildNo -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.tests.VerifyBuildNumberTest@5e3a8624]" name="postCondition" is-config="true" duration-ms="2100" started-at="2018-12-01T10:00:35Z" finished-at="2018-12-01T10:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.VerifyBuildNumberTest -->
+      <class name="com.actitime.tests.VerifyVersionTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.actitime.tests.VerifyVersionTest@5c3bd550]" name="preCondition" is-config="true" duration-ms="7995" started-at="2018-12-01T10:00:11Z" finished-at="2018-12-01T10:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:2, instance:com.actitime.tests.VerifyVersionTest@5c3bd550]" name="testVerifyVersion" duration-ms="170" started-at="2018-12-01T10:00:19Z" finished-at="2018-12-01T10:00:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[element is present....]]>
+            </line>
+            <line>
+              <![CDATA[version: actiTIME 2017.4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.tests.VerifyVersionTest@5c3bd550]" name="postCondition" is-config="true" duration-ms="2318" started-at="2018-12-01T10:00:19Z" finished-at="2018-12-01T10:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.VerifyVersionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
